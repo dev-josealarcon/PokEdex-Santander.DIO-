@@ -9,8 +9,8 @@ Explore the Pokémon world by consuming a REST API to create an incredible Poké
 
  ## Desktop
  
-<img src="/assets/desktop.png" alt="Page desktop">
+<img src="/assets/img/desktop.png" alt="Page desktop">
 
  ## Mobile
  
-<img src="/assets/mobile.png" alt="Page mobile">
+<img src="/assets/img/mobile.png" alt="Page mobile">
