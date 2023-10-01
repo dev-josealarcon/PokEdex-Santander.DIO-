@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Alarcón | Pokedex</title>
+    <link rel="shortcut icon" href="./assets/img/jose alarcon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/pokedex.css">
+
+
+</head>
+<body>
+    
+    <main>
+        <a href="https://jose-alarcon.com" target="_blank" rel="noreferrer noopener" class="mark">
+
+            <div class="logo">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <span>José Alarcón | Pokédex</span>
+        </a>
+
+
+
+        <section class="content">
+            <h1>Pokédex</h1>
+            <ol class="pokemons" id="pokemonsList">
+            </ol>
+
+        <div class="pagination">
+            <button id="loadMoreButon" type="button"> Load More</button>
+        </div>
+       
+
+        <dialog id="pokemonModal">
+            <div><button>X</button></div>
+            <div id="pokemonModalBody"></div>
+            
+        </dialog>
+
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <div class="social">
+            <a href="https://github.com/dev-josealarcon?tab=repositories" target="_blank"
+                rel="noreferrer noopener">GitHub</a>
+            <a href="https://jose-alarcon.com" target="_blank" rel="noreferrer noopener">Site-Portfolio</a>
+            <a href="https://www.linkedin.com/in/jose-alarcon-71a5b8241/" target="_blank"
+                rel="noreferrer noopener ">LinkedIn</a>
+
+        </div>
+        <p>&copy; 2023 Pokédex from José Alarcón</p>
+    </footer>
+    
+    
+    <script src="./assets/js/pokemon-model.js"></script>
+    <script src="./assets/js/poke-api.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
